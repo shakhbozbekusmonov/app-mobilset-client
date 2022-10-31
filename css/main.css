@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+/********************** Header styles start ************************/
+.header {
+  background-color: #f8f8fa;
+}
+
+.container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+
+.header-logo-img {
+  width: 157px;
+  height: 34px;
+}
+
+.header-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 777px;
+}
+
+.header-end-operator-search {
+  width: 416px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 2px;
+  /* padding-top: 10px;
+    padding-right: 13px;
+    padding-bottom: 9px;
+    padding-left: 16px; */
+  padding: 10px 13px 9px 16px;
+}
+
+.operator-link {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.202759px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-search {
+  width: 260px;
+  border: 0;
+}
+
+.header-search:focus {
+  outline-color: transparent;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+}
+
+.header-operator-btn {
+  display: flex;
+  align-items: center;
+  width: 127px;
+  height: 36px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  margin-right: 14px;
+  /* padding-top: 13px;
+    padding-right: 17px;
+    padding-bottom: 9px;
+    padding-left: 16px; */
+  padding: 13px 17px 9px 16px;
+}
+
+.header-operator-icon {
+  margin-right: 5px;
+}
+
+.header-operator-text {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.202759px;
+  color: #000000;
+  margin-right: 6px;
+}
+
+.header-user-btn {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 36px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    margin-right: 14px;
+    /* padding-top: 13px;
+      padding-right: 17px;
+      padding-bottom: 9px;
+      padding-left: 16px; */
+    padding: 13px 17px 9px 16px;
+  }
+  
+  .header-user-icon {
+    margin-right: 5px;
+  }
+  
+  .header-user-text {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.202759px;
+    color: #000000;
+    margin-right: 6px;
+  }
+
+/********************** Header styles end ************************/
