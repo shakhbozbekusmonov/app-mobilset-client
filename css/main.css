@@ -1,16 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
+}
+html {
+  height: 100%;
 }
 
 body {
   margin: 0;
-}
-
-/********************** Header styles start ************************/
-.header {
-  background-color: #f8f8fa;
 }
 
 .container {
@@ -19,6 +17,11 @@ body {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+/********************** Header styles start ************************/
+.header {
+  background-color: #f8f8fa;
 }
 
 .header-wrapper {
@@ -179,13 +182,220 @@ body {
   margin-bottom: 0;
 }
 
-.aside-bottom-link{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: -0.08px;
-    color: #FFFFFF;
-    text-decoration: none;
+.aside-bottom-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.08px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /********************** Aside styles end ************************/
+
+/********************** Main styles Start ************************/
+
+.main {
+  background-color: #f8f8fa;
+}
+
+/* Servises section start */
+.servises {
+  padding-top: 49px;
+  padding-bottom: 70px;
+}
+
+.servises-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.15px;
+}
+
+.servises-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.servises-item {
+  width: 160px;
+  min-height: 160px;
+  padding-top: 38px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.servises-item-desc {
+  margin: 0;
+  margin-top: 22px;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.110345px;
+}
+/* Servises section end */
+
+/* News section start */
+
+.news {
+  padding-bottom: 68px;
+}
+
+.news-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.15px;
+}
+
+.news-list {
+  padding: 0;
+  margin: 0 0 33px;
+  list-style: none;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.news-item {
+  width: 350px;
+  min-height: 400px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.news-item:hover .news-item-desc,
+.news-item:hover .news-item-end-img,
+.news-item:hover .news-item-end-desc {
+  opacity: 1;
+}
+
+.news-item:hover {
+  box-shadow: 0px 25px 35px rgba(165, 165, 166, 0.13);
+}
+
+.news-item-desc {
+  opacity: 0.5;
+  margin: 30px 24px 24px;
+}
+
+.news-item-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 24px;
+  border-top: 1px solid #9797972d;
+}
+
+.news-item-end-desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.231724px;
+  opacity: 0.5;
+}
+
+.news-item-end span {
+  display: flex;
+  align-items: center;
+}
+
+.news-item-end-img {
+  margin-right: 8px;
+  opacity: 0.5;
+}
+
+.news-end-btn {
+  width: 100%;
+  height: 54px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.231724px;
+  color: #ffffff;
+  background: #3a4357;
+  border: none;
+  opacity: 0.2;
+}
+
+.news-end-btn:hover {
+  opacity: 0.3;
+}
+
+.news-end-btn:active {
+  opacity: 0.2;
+}
+/* News section end */
+
+/********************** Main styles end ************************/
+
+.footer {
+  background-color: #fff;
+}
+
+.site-footer-top-list{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+}
+
+.site-footer-title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.088276px;
+}
+
+.site-footer-list{
+  padding-left: 0;
+  list-style: none;
+}
+
+.site-footer-link{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.0772415px;
+  opacity: 0.3;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.site-footer-link:hover{
+  opacity: 1;
+}
+
+.site-footer-number{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.site-footer-address{
+  width: 254px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  opacity: 0.3;
+}
+
+.site-footer-address:hover{
+  opacity: 1;
+  cursor: pointer;
+}
