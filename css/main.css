@@ -345,6 +345,10 @@ body {
   background-color: #fff;
 }
 
+.site-footer-top{
+  padding-bottom: 50px;
+}
+
 .site-footer-top-list{
   display: flex;
   justify-content: space-between;
@@ -398,4 +402,59 @@ body {
 .site-footer-address:hover{
   opacity: 1;
   cursor: pointer;
+}
+
+.site-footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 34px;
+}
+
+.bottom-start-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding-bottom: 35px;
+}
+
+.bottom-start-btn{
+  width: 90px;
+  height: 36px;
+  background: #F8F8FA;
+  border: 1px solid #3a435709;
+  border-radius: 2px;
+}
+
+.bottom-social-list{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-item{
+  width: 36px;
+  height: 36px;
+  background-color: #f8f8fa;
+  border-radius: 50%;
+  margin-right: 16px;
+  padding: 11px;
+}
+
+.footer-bottom-copyright{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.0772415px;
+  color: #000;
+  opacity: 0.3;
+}
+
+.bottom-apps-store{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.0993105px;
+  color: #000;
+  margin-left: 10px;
 }
